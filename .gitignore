@@ -1,0 +1,86 @@
+# Cybersecurity Course .gitignore
+
+# Sensitive Files - NEVER commit these
+*.key
+*.pem
+*.p12
+*.pfx
+passwords.txt
+secrets.txt
+api_keys.txt
+credentials.*
+
+# Lab and Testing Files
+*.pcap
+*.pcapng
+dumps/
+captures/
+forensics_images/
+*.vmem
+*.dd
+*.img
+
+# Compiled Files
+*.pyc
+*.pyo
+__pycache__/
+*.class
+*.o
+*.so
+*.exe
+*.dll
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.env
+.venv
+
+# Documentation Build
+_build/
+docs/_build/
+
+# Logs and Temporary Files
+*.log
+*.tmp
+*.temp
+temp/
+tmp/
+logs/
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Lab Specific
+metasploit-framework/
+nmap_results/
+sqlmap_output/
+burp_projects/
+wireshark_temp/
+
+# Configuration Files with Sensitive Data
+config.ini
+settings.conf
+*.config
+
+# Backup Files
+*.bak
+*.backup
+*_backup
+backup_*
